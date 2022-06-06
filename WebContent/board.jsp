@@ -33,32 +33,35 @@
   </div>
 </nav>
 
-<header>
-    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 fw-normal">로그인</h1>
-    </div>
-</header>
-
-<div class="container">
-	<div class="row">
-		<div class="col"></div>
-		<div class="col">
-			<div class="mb-3">
-			  <label for="formGroupExampleInput" class="form-label">ID</label>
-			  <input type="text" class="form-control" id="userID" placeholder="ID">
-			</div>
-			<div class="mb-3">
-			  <label for="formGroupExampleInput2" class="form-label">Password</label>
-			  <input type="text" class="form-control" id="userPassword" placeholder="Password">
-			</div>
-			<div class="d-grid mt-4">
-				<button type="button" class="btn btn-outline-primary">Login</button>
-			</div>
-		</div>
-		<div class="col"></div>
-	</div>
-</div>
-
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
